@@ -1,0 +1,42 @@
+I (15719) AudioCodec: Set input enable to false
+I (15719) AudioCodec: Set output enable to false
+I (17809) SystemInfo: free sram: 139031 minimal sram: 71548
+I (18729) esp-x509-crt-bundle: Certificate validated
+I (24539) Ota: Current is the latest version
+I (24539) Ota: Running partition: ota_0
+I (24579) MCP: Add tool: self.get_device_status
+I (24579) MCP: Add tool: self.audio_speaker.set_volume
+I (24579) MCP: Add tool: self.screen.set_brightness
+I (24589) MCP: Add tool: self.screen.set_theme
+I (24589) MCP: Add tool: self.get_system_info [user]
+I (24589) MCP: Add tool: self.reboot [user]
+I (24599) MCP: Add tool: self.upgrade_firmware [user]
+I (24599) MCP: Add tool: self.screen.get_info [user]
+I (24609) MCP: Add tool: self.screen.snapshot [user]
+I (24609) MCP: Add tool: self.screen.preview_image [user]
+I (24619) MCP: Add tool: self.assets.set_download_url [user]
+I (24619) MQTT: Connecting to endpoint api.tenclass.net
+I (25299) esp-x509-crt-bundle: Certificate validated
+I (26479) MQTT: Connected to endpoint
+I (26479) SystemInfo: free sram: 126467 minimal sram: 60660
+I (26489) Application: STATE: idle
+I (26489) MochiEyes: emotion neutral -> 0
+I (26489) AfeWakeWord: Model 0: wn9_hilili_tts
+I (26489) AFE_CONFIG: Set WakeNet Model: wn9_hilili_tts
+MC Quantized wakenet9: wakenet9l_tts1h8_Hi,Lily or Hi,??????_3_0.633_0.639, tigger:v4, mode:0, p:0, (Aug 11 2025 15:20:50)
+I (26539) AFE: AFE Version: (1MIC_V250121)
+I (26549) AFE: Input PCM Config: total 1 channels(1 microphone, 0 playback), sample rate:16000
+I (26549) AFE: AFE Pipeline: [input] -> |VAD(WebRTC)| -> |WakeNet(wn9_hilili_tts,)| -> [output]
+I (26559) AfeWakeWord: Audio detection task started, feed size: 512 fetch size: 512
+I (26569) AudioCodec: Set input enable to true
+I (26679) AudioCodec: Set output enable to true
+I (26679) AudioService: OpusHead: version=1, channels=1, sample_rate=16000
+I (26679) AudioService: Resampling audio from 16000 to 24000
+I (26689) OpusResampler: Resampler configured with input sample rate 16000 and output sample rate 24000
+I (26699) main_task: Returned from app_main()
+I (35719) SystemInfo: free sram: 114911 minimal sram: 36292
+I (43679) AudioCodec: Set output enable to false
+I (45819) SystemInfo: free sram: 114347 minimal sram: 36292
+I (55789) SystemInfo: free sram: 114687 minimal sram: 36292
+I (65789) SystemInfo: free sram: 114355 minimal sram: 36292
+I (75799) SystemInfo: free sram: 114911 minimal sram: 36292

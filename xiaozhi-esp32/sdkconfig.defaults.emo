@@ -1,0 +1,11 @@
+CONFIG_BOARD_TYPE_OTTO_ROBOT=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions/v2/16m.csv"
+CONFIG_LVGL_USE_GIF=y
+# Custom wake word "Mochi" (MultiNet7) disabled: ran internal SRAM down to 16 bytes -> freezes.
+# CONFIG_USE_CUSTOM_WAKE_WORD=y
+# CONFIG_CUSTOM_WAKE_WORD="mo qi"
+# CONFIG_CUSTOM_WAKE_WORD_DISPLAY="Mochi"
+# CONFIG_SR_MN_CN_MULTINET7_QUANT=y
+# Wake word: "Hi Lili" (wakenet9, same memory class as the default)
+CONFIG_SR_WN_WN9_NIHAOXIAOZHI_TTS=n
+CONFIG_SR_WN_WN9_HILILI_TTS=y

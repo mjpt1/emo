@@ -1,0 +1,80 @@
+﻿I (40599) SystemInfo: free sram: 115675 minimal sram: 47028
+I (45189) AudioCodec: Set output enable to false
+I (50599) SystemInfo: free sram: 115083 minimal sram: 47028
+I (60599) SystemInfo: free sram: 115083 minimal sram: 47028
+I (70599) SystemInfo: free sram: 115635 minimal sram: 47028
+I (80599) SystemInfo: free sram: 115123 minimal sram: 47028
+I (81229) MQTT: Received goodbye message, session_id: 
+I (81229) wifi:Set ps type: 1, coexist: 0
+
+I (90599) SystemInfo: free sram: 115095 minimal sram: 47028
+I (100599) SystemInfo: free sram: 115179 minimal sram: 47028
+I (110599) SystemInfo: free sram: 115659 minimal sram: 47028
+I (120599) SystemInfo: free sram: 115179 minimal sram: 47028
+I (130599) SystemInfo: free sram: 115203 minimal sram: 47028
+I (140599) SystemInfo: free sram: 115683 minimal sram: 47028
+I (150599) SystemInfo: free sram: 115203 minimal sram: 47028
+I (160599) SystemInfo: free sram: 115683 minimal sram: 47028
+I (170599) SystemInfo: free sram: 115167 minimal sram: 47028
+I (180599) SystemInfo: free sram: 115719 minimal sram: 47028
+I (190599) SystemInfo: free sram: 115167 minimal sram: 47028
+I (195629) Application: STATE: connecting
+I (195629) MochiEyes: emotion neutral -> 0
+I (196009) AfeWakeWord: Encode wake word opus 66 packets in 386 ms
+W (196999) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197029) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197059) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197109) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197139) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197169) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197199) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197229) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197259) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+W (197289) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+I (197309) MQTT: Session ID: 097a986a
+I (197319) wifi:Set ps type: 0, coexist: 0
+
+I (197319) Application: Wake word detected: Hi,Lily or Hi,莉莉
+I (197329) Application: STATE: listening
+I (197329) MochiEyes: emotion neutral -> 0
+W (197329) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+I (197329) AFE: AFE Version: (1MIC_V250121)
+I (197339) AFE: Input PCM Config: total 1 channels(1 microphone, 0 playback), sample rate:16000
+I (197349) AFE: AFE Pipeline: [input] -> |VAD(WebRTC)| -> [output]
+I (197349) AfeAudioProcessor: Audio communication task started, feed size: 512 fetch size: 512
+W (197359) AFE: Ringbuffer of AFE(FEED) is full, Please use fetch() to read data to avoid data loss or overwriting
+I (199069) Application: >> Hi,Lily or Hi,莉莉
+I (199109) Application: STATE: speaking
+I (199799) MochiEyes: emotion happy -> 1
+I (199959) AudioCodec: Set output enable to true
+I (200299) Application: << سلام!
+I (200989) Application: << لیلی در خدمت شماست، چه خبر؟
+I (204779) Application: STATE: listening
+I (204779) MochiEyes: emotion neutral -> 0
+I (211579) Application: >> تو صغرائی یا لیلی
+I (211609) Application: STATE: speaking
+I (213239) MochiEyes: emotion embarrassed -> 5
+I (213709) Application: << صغرا کیه دیگه؟!
+W (215579) MQTT: Received audio packet with wrong sequence: 102, expected: 101
+W (215579) MQTT: Received audio packet with old sequence: 101, expected: 103
+W (215849) MQTT: Received audio packet with wrong sequence: 109, expected: 106
+W (215989) MQTT: Received audio packet with wrong sequence: 121, expected: 115
+I (216129) Application: << من لیلی‌ام، لی-لی! با یه «ل» خوشگل اولش!
+I (220669) Application: STATE: listening
+I (220679) MochiEyes: emotion neutral -> 0
+I (227069) Application: >> ایلی برای
+I (227099) Application: STATE: speaking
+I (227969) MochiEyes: emotion thinking -> 5
+W (228849) MQTT: Received audio packet with wrong sequence: 199, expected: 198
+I (229099) Application: << ایلی؟ نه بابا، لیلی!
+W (229649) MQTT: Received audio packet with wrong sequence: 206, expected: 205
+W (230109) MQTT: Received audio packet with wrong sequence: 226, expected: 225
+W (230669) MQTT: Received audio packet with wrong sequence: 237, expected: 236
+W (230669) MQTT: Received audio packet with old sequence: 236, expected: 237
+I (231779) Application: << دو تا «لی» پشت هم، مثل آدامس که دو تا بسته‌ای می‌چسبه!
+W (234459) MQTT: Received audio packet with wrong sequence: 291, expected: 290
+W (234469) MQTT: Received audio packet with wrong sequence: 293, expected: 292
+W (234469) MQTT: Received audio packet with wrong sequence: 296, expected: 294
+I (236599) SystemInfo: free sram: 102371 minimal sram: 38504
+I (237639) Application: STATE: listening
+I (237649) MochiEyes: emotion neutral -> 0
